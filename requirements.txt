@@ -1,8 +1,10 @@
 fastapi
 pydantic
 openai
-dotenv
+python-dotenv
 pdfkit
 python-docx
 cloudinary
 requests
+uvicorn
+python-multipart
