@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.routes import whatsapp
-from app.routes.twilio_webhook import router as twilio_router
+from routes import whatsapp
+from routes.twilio_webhook import router as twilio_router
 
 app = FastAPI(title="MyChatCV API")
 

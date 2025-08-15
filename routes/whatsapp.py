@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException
-from app.models.whatsapp import WhatsAppCVRequest
-from app.services.cv_generator import parse_message, generate_cv_content
-from app.utils.pdf import create_pdf_file
-from app.utils.generate_doc import create_docx_file
-from app.utils.cloudinary_upload import upload_file_to_cloudinary
+from models.whatsapp import WhatsAppCVRequest
+from services.cv_generator import parse_message, generate_cv_content
+from utils.pdf import create_pdf_file
+from utils.generate_doc import create_docx_file
+from utils.cloudinary_upload import upload_file_to_cloudinary
 
 router = APIRouter()
 
